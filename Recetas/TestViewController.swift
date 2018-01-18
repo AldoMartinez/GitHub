@@ -31,8 +31,7 @@ class TestViewController: UITableViewController{
         recipe = Recipe(name: "Flautas", image: #imageLiteral(resourceName: "flautas"), time: 35, ingredients: ["Tortilla de maiz", "Carne Deshebrada","Crema", "Aguacate", "Sal", "Aceite", "Leche"], steps: ["Calentar el aceite en el sarten", "Calentar tortillas de maiz", "Agregra carne a la tortilla y hacer el taco","Se licua leche con aguacate para crear el guacamole", "Freir el taco en el sarten", "Servir en el plato", "Agregar el guacamole y la crema al gusto" ])
         recipes.append(recipe)
         
-        recipe = Recipe(name: "Sopes", image: #imageLiteral(resourceName: "sopes"), time: 40, ingredients: ["Deshebrada", "Sope de maiz", "Frijoles"], steps: ["Calentar sope y dorar", "Agregra frijoles al gusto", "Agregar deshebrada al gusto"])
-        recipes.append(recipe)
+        
         
     }
     
